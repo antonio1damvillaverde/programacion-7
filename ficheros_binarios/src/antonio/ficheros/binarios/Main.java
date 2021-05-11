@@ -8,8 +8,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
-//		ejercicio1();
-		ejercicio2();
+		ejercicio1();
+//		ejercicio2();
 	}
 
 	private static void ejercicio1() {
@@ -44,7 +44,7 @@ public class Main {
 			FileOutputStream fOut = new FileOutputStream(file);
 			int letra;
 			for (letra = 'a'; letra <= 'z'; letra++) {
-				System.out.println("Byte: ");
+				System.out.println("Byte: " + letra);
 				fOut.write(letra);
 			}
 			fOut.close();
